@@ -38,28 +38,74 @@ var futureday = new Date(2222, 11, 11).getTime();
 ## 其他用法
 
 
-| 方法 | 用途 | 
-| -------- | -------- | -------- |
-| getFullYear()|取得是幾年 (yyyy)|
-|getMonth()|取得是幾月 (0-11)|
-|getDate()	|取得是幾日 (1-31)|
-|getHours()	|取得是幾時 (0-23)|
-|getMinutes()	|取得是幾分 (0-59)|
-|getSeconds()	|取得是幾秒 (0-59)|
-|getMilliseconds()	|取得是幾毫秒 (0-999)|
-|getDay()|	取得是星期幾 (0-6)|
-|getTime()	|取得從 1970-01-01 00:00:00 UTC 累計的毫秒數|
-
+<table>
+<tr>
+  <th>方法</th>
+  <th>用途</th>
+<tr/>
+<tr>
+  <td>getFullYear()</td>
+  <td>取得是幾年</td>
+</tr>
+<tr>
+  <td>getMonth()</td>
+  <td>取得是幾月(0-11)</td>
+</tr>
+<tr>
+  <td>getHours()</td>
+  <td>取得是幾時 (0-23)</td>
+</tr>
+<tr>
+  <td>getMinutes()</td>
+  <td>取得是幾分 (0-59)</td>
+</tr>
+<tr>
+  <td>getSeconds()</td>
+  <td取得是幾秒 (0-59)</td>
+</tr>
+<tr>
+  <td>getMilliseconds()</td>
+  <td>取得是幾毫秒 (0-999)</td>
+</tr>
+<tr>
+  <td>getDay()</td>
+  <td>取得是星期幾 (0-6)</td>
+</tr>
+<tr>
+  <td>getTime()</td>
+  <td>取得從 1970-01-01 00:00:00 UTC 累計的毫秒數</td>
+</tr>
+</table>
 
 ### 設定日期和時間相關的方法：
 
-| 方法 | 用途 | 
-| -------- | -------- | -------- |
-|setFullYear()|	設定是是幾年|
-|setMonth()|	設定是幾月 (0-11)|
-|setDate()	|設定是幾日 (1-31)|
-|setHours()	|設定是幾時 (0-23)|
-|setMinutes()|	設定是幾分 (0-59)|
-|setSeconds()|	設定是幾秒 (0-59)|
-|setMilliseconds()|	設定是幾毫秒 (0-999)|
-|setTime()|	用 timestamp milliseconds 設定是什麼日期時間|
+<table>
+<tr>
+  <th>方法</th>
+  <th>用途</th>
+<tr/>
+<tr>
+  <td>setFullYear()</td><td>設定是是幾年</td>
+</tr>
+<tr>
+<td>setMonth()</td><td>設定是幾月 (0-11)</td>
+</tr>
+<tr>
+<td>setDate()</td><td>設定是幾日 (1-31)</td>
+</tr>
+<tr>
+<td>setHours()</td><td>設定是幾時 (0-23)</td>
+</tr>
+<tr>
+<td>setMinutes()</td><td>設定是幾分 (0-59)</td>
+</tr>
+<tr>
+<td>setSeconds()</td><td>設定是幾秒 (0-59)</td>
+</tr>
+<tr>
+<td>setMilliseconds()</td><td>設定是幾毫秒 (0-999)</td>
+</tr>
+<tr>
+<td>setTime()</td><td>用 timestamp milliseconds 設定是什麼日期時間</td>
+</tr>
+</table>
